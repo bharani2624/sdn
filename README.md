@@ -14,9 +14,9 @@ sudo dpkg-reconfigure wireshark-common
 
 sudo usermod -aG wireshark $USER
 
-```Start WireShark
 wireshark &
+
 h1 ping h2
-```Command For Cleaning
+
 sudo mn -c
 
