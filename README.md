@@ -21,4 +21,27 @@ wireshark &
 h1 ping h2
 
 sudo mn -c
+### **3**
+```bash
+sudo apt update
+
+sudo apt install python3 python3-pip
+
+sudo pip3 install ryu
+
+sudo apt install mininet
+
+sudo apt install openvswitch-switch
+
+ryu-manager /home/abd/ryu_apps/simple_switch.py
+
+sudo mn --controller=remote --switch=ovsk,protocols=OpenFlow13 --topo=single,3
+
+mininet> nodes
+
+mininet> pingall
+
+
+```
+
 
