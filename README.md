@@ -14,6 +14,8 @@ sudo dpkg-reconfigure wireshark-common
 
 sudo usermod -aG wireshark $USER
 
+sudo python3 simple_topology.py
+
 wireshark &
 
 h1 ping h2
